@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+            
+<head>
+    <title>About US</title>
+
+</head>
+
+<body>
+
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <div id="nav">
+        <pre style="font-family:Comic Sans MS">
+<a href="libb.html">HOME</a>      <a href="about.html">ABOUT US</a>     <a href="contact.html">CONTACT US</a>
+</pre>
+    </div>
+    
+        
+        
+    <div id="section">
+
+                    <img class="mySlides" src="m.jpg" style="width:50%"  border="1" >
+                    <img class="mySlides" src="n.png " style="width:50%" border="1">
+                    <img class="mySlides" src="o.png"style="width:50%" border = "1">
+               
+                 
+                    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+                       
+                    </script>
+                
+                  
+</pre>
+       
+    </div>
+
+
+
+    <style>
+        #section {
+            width: 100%;
+            float: left;
+            padding: 10px;
+            font-size: 130%;
+            margin-top: 3%;
+            margin-left: 2%;
+            font-family: Comic Sans MS;
+            /*border: 1px solid rgb(105, 98, 98);*/
+        }
+    </style>
+    </html>

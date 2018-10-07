@@ -1,0 +1,97 @@
+#banner-image{
+ padding-top: 20px;
+ padding-bottom: 80px;
+ text-align: center;
+ 
+ }
+#banner-content{
+ position: relative;
+ padding-top: 6%;
+ padding-bottom: 6%;
+ margin-top: 12%;
+ margin-bottom: 12%;
+ max-width: 660px;
+}
+h1 {
+ padding-top:0px;
+    padding-right:0px;
+    padding-bottom:50px;
+    padding-left:0px;
+    font-size: 20px;
+    padding: 50px 0;
+    text-align: center;
+   background-color: #1569C7;
+     bottom: 0;
+     width: 100%;
+	 }
+ div.scrollmenu {
+    
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+div.scrollmenu a:hover {
+    
+}
+
+ img
+{
+  max-width:100%;
+  max-height:80%;
+ 
+}
+ div.background
+{
+  max-width:100%;
+  max-height:80%;
+  opacity:0.2;
+  filter: alpha(opacity=20);
+}
+
+
+.header img {
+     padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    float:left;
+  width: 135px;
+  height: 134px;
+  text-align: center;
+   background-color:#1569C7;
+  
+ 
+}
+footer{
+
+ 
+    border: 1px solid black;
+   padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    padding-left: 80px; 
+      
+}
+   
+   /*boxes*/
+#boxes{
+ margin-top:0px;
+}
+
+#boxes .box{
+ float:left;
+ text-align:center;
+        width: 370px;
+    padding:0px;
+    margin: 20px;
+    
+  
+   
+  }

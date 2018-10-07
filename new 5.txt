@@ -1,0 +1,14 @@
+<html>
+<style>
+.content{
+margin-left:200px;
+margin-right:200px;
+max-width:2000px;}
+<style>
+<div class="content">
+<head>
+</head>
+<body>
+</body>
+</div>
+</html>
