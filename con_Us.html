@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 33%;
+}
+
+.middle {
+  width: 34%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ .img-circle {
+    border-radius: 50%;
+}
+
+</style>
+</head>
+<body>
+
+<h2>CONTACT US</h2>
+
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+  <img class="img-circle1"  src="./img/resort.jpg" alt="" class="thumbnail" width="150" height="150" >
+<style>
+ .img-circle1 {
+    border-radius: 50%;
+}
+ </style>
+
+    <h2>Ajit_Kumar_Roy</h2>
+    <b>Email:-ajit@iiitnr.edu.in</br>
+<b>International Institute of Information Technology, Naya Raipur
+</b>
+  </div>
+  <div class="column middle" style="background-color:#bbb;">
+   <img class="img-circle1"  src="./img/doll.jpg" alt="" class="thumbnail" width="150" height="150" >
+<style>
+ .img-circle1 {
+    border-radius: 50%;
+}
+ </style>
+
+    <h2>kirit</h2>
+    <b>Email:-kirit_84@yahoo.co.in</br>
+<b>International Institute of Information Technology, Naya Raipur
+</b>
+  </div>
+  <div class="column right" style="background-color:#ccc;">
+   <img class="img-circle2" src="./img/monkey.jpg" alt="" class="thumbnail" width="150" height="150">
+<style>
+ .img-circle2 {
+    border-radius: 50%;
+}
+ </style>
+
+
+    <h2>Padma</h2>
+    <b>Email:-padma.5543@gmail.com</br>
+<b>International Institute of Information Technology, Naya Raipur
+</b>
+  </div>
+</div>
+
+</body>
+</html>
